@@ -19,3 +19,6 @@ For example, to test the model on the "Cap" and "Rocket" categories of ShapeNet,
 ```
 python gen_pos_encodings.py --shapenet_data Cap,Rocket
 ```
+
+## Further Work
+- Test the model on the entire ShapeNet dataset, rather than a couple categories
