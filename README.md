@@ -17,7 +17,7 @@ python gen_pos_encodings.py --shapenet_data Cap,Rocket
 - Test the model on the entire ShapeNet dataset, rather than a few categories
 
 ## Reference
-Chamberlain, B.P., Rowbottom, J., Eynard, D., Giovanni, F.D., Dong, X., & Bronstein, M.M. (2021). Beltrami Flow and Neural Diffusion on Graphs. **Proceedings of the Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS) 2021**. https://doi.org/10.48550/arXiv.2110.09443
+Chamberlain, B.P., Rowbottom, J., Eynard, D., Giovanni, F.D., Dong, X., & Bronstein, M.M. (2021). Beltrami Flow and Neural Diffusion on Graphs. *Proceedings of the Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS) 2021*. https://doi.org/10.48550/arXiv.2110.09443
 ```
 @article
 {chamberlain2021blend,
