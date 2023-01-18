@@ -1,4 +1,4 @@
-# Beltrami Flow & Neural Diffusion on Graphs (BLEND) for Graph Classification
+# BLEND for Graph Classification
 This repository is an implementation / slight adaptation of the [Beltrami Flow and Neural Diffusion on Graphs (BLEND) model proposed by Chamberlain et al. (2021)](https://arxiv.org/pdf/2110.09443.pdf). The [source code](https://github.com/twitter-research/graph-neural-pde) mainly focuses on node classification, while this repository uses BLEND for graph classification on the ShapeNet dataset.
 
 ```
