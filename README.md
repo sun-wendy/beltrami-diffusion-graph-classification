@@ -8,7 +8,7 @@ The code has been tested running under Python 3.7.13.
 
 ## Main Modifications from Official BLEND
 - `models/data.py` includes the ShapeNet dataset
-- `gen_pos_encodings.py` generates positional encodings for ShapeNet and saves them in data/pos_encodings
+- `gen_pos_encodings.py` generates positional encodings for ShapeNet and saves them in `data/pos_encodings`
 - `models/GNN.py` changes from node classification to graph classification task
 
 
