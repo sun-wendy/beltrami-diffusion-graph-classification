@@ -20,5 +20,8 @@ For example, to test the model on the "Cap" and "Rocket" categories of ShapeNet,
 python gen_pos_encodings.py --shapenet_data Cap,Rocket
 ```
 
+## Performance
+- Test accuracy of 73.23% on the single "Cap" category
+
 ## Further Work
-- Test the model on the entire ShapeNet dataset, rather than a couple categories
+- Test the model on the entire ShapeNet dataset, rather than a few categories
