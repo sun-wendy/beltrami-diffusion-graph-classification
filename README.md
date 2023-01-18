@@ -13,7 +13,7 @@ python gen_pos_encodings.py --shapenet_data Cap,Rocket
 
 
 ## Performance
-- Test accuracy of 73.23% on the single category of "Cap"
+- Test accuracy of **73.23%** on the single category of "Cap"
 
 
 ## Further Work
