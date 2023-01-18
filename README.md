@@ -44,4 +44,4 @@ Chamberlain, B.P., Rowbottom, J., Eynard, D., Giovanni, F.D., Dong, X., & Bronst
 
 
 ## License
-The official repository is under Apache License 2.0.
+The official repository is under [Apache License 2.0](https://github.com/twitter-research/graph-neural-pde/blob/main/LICENSE).
