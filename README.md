@@ -6,6 +6,12 @@ This repository is an implementation / slight modification of the [Beltrami Flow
 The code has been tested running under Python 3.7.13.
 
 
+## Main Modifications from Official BLEND
+- models/data.py includes the ShapeNet dataset
+- gen_pos_encodings.py generates positional encodings for ShapeNet and saves them in data/pos_encodings
+- models/GNN.py changes from node classification to graph classification task
+
+
 ## Experiments
 Due to the large quantity of the ShapeNet dataset compared to the original datasets for node classification, I only got to run the model on a couple categories of ShapeNet so far.
 
