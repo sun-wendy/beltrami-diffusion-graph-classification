@@ -1,6 +1,7 @@
 # BLEND for Graph Classification
 This repository is an implementation / slight adaptation of the [Beltrami Flow and Neural Diffusion on Graphs (BLEND) model proposed by Chamberlain et al. (2021)](https://arxiv.org/pdf/2110.09443.pdf). The [official source code](https://github.com/twitter-research/graph-neural-pde) mainly focuses on node classification, while this repository uses BLEND for graph classification on the ShapeNet dataset. Most of the code is directly copied from the source code.
 
+
 ## Experiments
 Due to the large quantity of the ShapeNet dataset compared to the original datasets for node classification, I only got to run the model on a couple categories of ShapeNet so far.
 
@@ -9,6 +10,7 @@ For example, to test the model on the "Cap" and "Rocket" categories of ShapeNet,
 ```
 python gen_pos_encodings.py --shapenet_data Cap,Rocket
 ```
+
 
 ## Performance
 - Test accuracy of 73.23% on the single category of "Cap"
