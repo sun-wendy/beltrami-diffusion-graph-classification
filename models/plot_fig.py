@@ -97,16 +97,11 @@ def get_model_data(model,dataset,epoch):
     plt.savefig("../picture/{}_path_epoch_{}.png".format(prefix_name,str(epoch)))
     plt.close()
 
-
-
     ccs = [c for c in sorted(nx.connected_components(g), key=len, reverse=True)]
-
-
 
     g0 = g.subgraph(ccs[0])
 
     cc_idx = list(ccs[0])
-
 
     nx.draw(g0, with_labels=False, font_weight='bold', node_size=5, node_color=labels[cc_idx])
     plt.savefig("../picture/{}_path_sub_epoch_{}.png".format(prefix_name,str(epoch)))
